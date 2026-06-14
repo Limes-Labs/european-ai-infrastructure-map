@@ -9,116 +9,195 @@ We are not claiming compute access. We are documenting what exists and what path
 | Resource | URL |
 | --- | --- |
 | EuroHPC access portal | https://access.eurohpc-ju.europa.eu/ |
+| EuroHPC systems factsheets | https://eurohpcsupport.eu/eurohpc/eurohpc-systems/ |
 | AI Factories overview | https://www.eurohpc-ju.europa.eu/ai-factories_en |
+| AI Factories systems | https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-systems_en |
 | AI Factories access modes | https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en |
+| Large Scale Access (industrial) | https://www.eurohpc-ju.europa.eu/large-scale-access-ai-factories_en |
 | IT4LIA (Italy) | https://it4lia-aifactory.eu/ |
+| LUMI docs | https://www.lumi-supercomputer.eu/ |
+| Leonardo docs | https://leonardo-supercomputer.cineca.eu/ |
+| JUPITER docs | https://www.fz-juelich.de/en/ias/jsc/jupiter |
+| EU Open Source Strategy | https://digital-strategy.ec.europa.eu/en/policies/open-source-strategy |
 | Limes Labs open questions | https://limeslabs.eu/open-questions |
 
 ---
 
-## 1. EuroHPC AI Factories network
+## 1. EuroHPC supercomputers (operational & incoming)
 
-The EU has established **19 AI Factories** and **13 AI Factory Antennas** offering **free, customised support** to SMEs and startups (EuroHPC JU, 2026).
+Source: [EuroHPC JU — Our Supercomputers](https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en), TOP500 / EuroHPC press (June 2026).
 
-AI Factories are ecosystems around AI-optimised supercomputers. They provide compute resources and expert support for industry and science to develop large AI models.
+| System | Country | Host | Class | Notes |
+| --- | --- | --- | --- | --- |
+| **JUPITER** | Germany | JSC / Forschungszentrum Jülich | Exascale (~1 EF) | Europe's fastest (TOP500 #4, 2025); **JAIF** AI Factory; BullSequana XH3000 |
+| **LUMI** | Finland | CSC, Kajaani | Pre-exascale (~380 PF) | TOP500 top 10; **LUMI AI Factory**; HPE Cray EX |
+| **Leonardo** | Italy | CINECA, Bologna Tecnopolo | Pre-exascale (~241 PF) | TOP500 top 10; **IT4LIA**; **LISA** AI partition deploying |
+| **MareNostrum 5** | Spain | BSC, Barcelona | Pre-exascale | AI Factory via upgrade; ACC GPU partition for large models |
+| **MeluXina** | Luxembourg | LuxProvide, Bissen | Petascale | **MeluXina-AI** factory |
+| **Karolina** | Czechia | IT4Innovations, Ostrava | Petascale | HPE Apollo; EuroHPC access |
+| **Discoverer** | Bulgaria | Sofia Tech Park | Petascale | BullSequana XH2000 |
+| **Deucalion** | Portugal | FCT / MACC | Petascale | AI & climate workloads |
+| **Vega** | Slovenia | IZUM, Maribor | Petascale | BullSequana XH2000 |
+| **Alice Recoque** | France | CEA TGCC (GENCI consortium) | Exascale (incoming) | Deploy from 2026; **AI2F** France; Eviden Sequana XH3500 |
+| **Arrhenius** | Sweden | NAIS Sweden | Mid-range (incoming) | Ops early 2026; paired with **MIMER** AI Factory |
+| **Daedalus** | Greece | GRNET | Incoming | Associated with Greek AI Factory / **Pharos** |
 
-### National AI Factories (confirmed on EuroHPC site)
+**Access:** European users in Member States or countries associated to DEP/Horizon Europe may apply via https://access.eurohpc-ju.europa.eu/
 
-| Country | Notes |
-| --- | --- |
-| Finland | LUMI AI Factory; antennas in Iceland, Latvia, Switzerland |
-| Luxembourg | Antenna: Ireland |
-| **Italy** | **IT4LIA** — Leonardo, LISA, GAIA, MEGARIDE; antennas: Switzerland, Serbia |
-| Sweden | MIMER; antenna: Switzerland |
-| Germany | JAIF + HammerHAI; antennas: Belgium, Hungary, UK |
-| Spain | Antennas: Portugal, Romania, Türkiye |
-| Greece | Antennas: Cyprus, Malta, North Macedonia, Serbia |
-| France | Antenna: Ireland |
-| Slovenia | |
-| Bulgaria | |
-| Austria | Antenna: Slovakia |
-| Poland | PIAST; also Gaia AI Factory (new) |
-| Czechia | CZAI (new) |
-| Lithuania | LitAI Factory (new) |
-| Netherlands | NLAIF (new) |
-| Spain | 1Health AI (new) |
-| Romania | RO AI Factory (new) |
-
-Full antenna list: https://www.eurohpc-ju.europa.eu/ai-factory-antennas_en
+**Policy reference:** [EuroHPC Access Policy (April 2025 PDF)](https://www.eurohpc-ju.europa.eu/document/download/a473e939-1131-4a75-bf0b-4d8659d6bce0_en)
 
 ---
 
-## 2. AI Factories access modes (industrial innovation)
+## 2. EuroHPC AI Factories network
+
+The EU is building **AI Factories** — open ecosystems around AI-optimised supercomputers with **free customised support for SMEs and startups** (EuroHPC JU, 2026). **13 sites** were selected in 2024–2025; additional factories in Austria, Bulgaria, France, Germany, Poland, Slovenia (March 2025 cut-off). **19 AI Factories** and **13 Antennas** referenced in 2026 communications.
+
+AI Factories provide: GPU compute, expert support, training, data/compliance tooling, and industry/science networking.
+
+### First-wave national AI Factories (Dec 2024 selection)
+
+| Factory | Country | Lead / host | Base system | Status (2026) |
+| --- | --- | --- | --- | --- |
+| **LUMI AI Factory** | Finland | CSC | New AI system + LUMI | Operational; experimental platform |
+| **JAIF** | Germany | JSC | JUPITER + new AI partition | Selected Mar 2025 |
+| **IT4LIA** | Italy | CINECA | Leonardo, LISA, new Dell/E4 system | Services since Apr 2025; €290M new AI system contract Apr 2026 |
+| **MeluXina-AI** | Luxembourg | LuxProvide | MeluXina + new AI system | Deploying |
+| **MIMER** | Sweden | Linköping / NAIS | New AI-dedicated system + Arrhenius | Life sciences, healthcare, materials focus |
+| **BSC AI Factory** | Spain | BSC | MareNostrum 5 upgrade | GPU ACC partition |
+| **Pharos / DAEDALUS** | Greece | GRNET | Daedalus supercomputer | AI-ready national stack |
+
+### Additional AI Factories (2025 selections)
+
+| Factory | Country | Notes |
+| --- | --- | --- |
+| **AI2F** | France | Alice Recoque; interim access via Jean Zay, Adastra, Joliot-Curie |
+| **HammerHAI** | Germany | Complements JAIF |
+| **PIAST** | Poland | National sovereign AI |
+| **Gaia AI Factory** | Poland | Additional factory |
+| **CZAI** | Czechia | New |
+| **LitAI** | Lithuania | New |
+| **NLAIF** | Netherlands | New |
+| **1Health AI** | Spain | Health vertical |
+| **RO AI Factory** | Romania | New |
+| Austria, Bulgaria, Slovenia | — | New AI-optimised systems per Mar 2025 announcement |
+
+**Antennas** extend factories transnationally (e.g. IT4LIA antennas: Switzerland, Serbia). Full list: https://www.eurohpc-ju.europa.eu/ai-factory-antennas_en
+
+---
+
+## 3. AI Factories access modes
 
 Source: [EuroHPC AI Factories Access Modes](https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en)
 
-### Industrial Innovation (startups / SMEs)
+### A. Industrial Innovation (startups / SMEs)
 
-Three tiers, **open and free-of-charge for AI SMEs including startups** for innovation purposes:
+**Free** for eligible AI SMEs and startups pursuing innovation:
 
-1. **Playground** — limited resources for entry-level users
-2. **Fast Lane** — up to 50,000 GPU hours for HPC-familiar users
-3. **Large Scale** — more than 50,000 GPU hours for large models
+| Tier | GPU hours | Audience |
+| --- | --- | --- |
+| **Playground** | Entry-level | First experiments |
+| **Fast Lane** | Up to **50,000** GPU hours | HPC-familiar teams |
+| **Large Scale** | **> 50,000** GPU hours | Foundation-model-scale work; 3–12 month allocations |
 
-Other industrial use cases may use pay-per-use commercial access.
+- **Apply:** https://access.eurohpc-ju.europa.eu/
+- **Large Scale call** (2025–2027 rolling cut-offs): industrial innovation track; resources quoted in GPU-hours per system partition.
+- **Availability note (2026):** Leonardo and MareNostrum 5 partitions may be constrained under high demand — check current partition availability at application time.
 
-**Apply:** https://access.eurohpc-ju.europa.eu/
+Other industrial use → commercial pay-per-use via hosting sites.
 
-### AI for Science and Collaborative EU projects
+### B. AI for Science & Collaborative EU Projects
 
-Free for eligible public and private users, primarily publicly funded research and industrial applications in projects funded by **Horizon Europe** or the **Digital Europe Programme**.
+Free for eligible users in publicly funded research / DEP / Horizon Europe collaborative projects.
+
+### C. Strategic / urgent / federation
+
+Additional EuroHPC access tracks exist for strategic initiatives and federation platform users — see access portal and [Federation Platform release (Apr 2026)](https://www.eurohpc-ju.europa.eu/first-release-eurohpc-federation-platform-streamline-access-europes-supercomputing-resources-2026-04-15_en).
+
+### Eligibility snapshot
+
+- Users must be in **EU Member States** or countries **associated to DEP or Horizon Europe**
+- Industrial innovation large-scale: applicants should be **industry** (incl. startups/SMEs) resident/located in eligible countries
+- Open-source projects without legal entity may need a **partner university, research org, or company** — *Limes Labs is documenting paths; not yet claiming eligibility*
 
 ---
 
-## 3. IT4LIA (Italy)
+## 4. IT4LIA (Italy) — detailed
 
-Source: [it4lia-aifactory.eu](https://it4lia-aifactory.eu/)
+Sources: [it4lia-aifactory.eu](https://it4lia-aifactory.eu/), [EuroHPC IT4LIA contract (Apr 2026)](https://www.eurohpc-ju.europa.eu/eurohpc-ju-signs-contract-boost-ai-capabilities-it4lia-ai-factory-2026-04-22_en), [LISA upgrade](https://www.eurohpc-ju.europa.eu/eurohpc-joint-undertaking-awards-contract-lisa-upgrade-leonardo-supercomputer-2025-05-13_en)
 
-Italy's national AI Factory. Infrastructure continuum:
+**Consortium:** CINECA (lead), ARNES (Slovenia), ACA (Austria), AIT (Austria). **Location:** DAMA Tecnopolo, Bologna (+ MEGARIDE node in Naples).
 
-- **Leonardo** (EuroHPC supercomputer, Bologna)
-- **LISA** (upgrade)
-- **GAIA** (cloud system)
-- **MEGARIDE**
-- Future **AI-optimised system**
+### Infrastructure continuum
 
-### Who IT4LIA serves
-
-- **No-cost access** for eligible startups, SMEs, public administrations, and academic institutions
-- Tailored paid offerings for other innovation actors
-
-### Service packages (TRY / Medium / Large)
-
-| Package | Target |
+| System | Role |
 | --- | --- |
-| TRY | First-time users, workload tests, scalability trials |
-| Medium | Fine-tuning, datasets, agentic AI |
-| Large | Pre-training, foundation model adaptation |
+| **Leonardo** | EuroHPC pre-exascale; ~250 PF peak; Booster + data-centric modules |
+| **LISA** | First EuroHPC partition designed for AI; ~650 PF mixed-precision; 8-GPU nodes, 640GB+ HBM; deployed 2025 |
+| **GAIA** | Cloud / hybrid layer |
+| **MEGARIDE** | University campus GPU capacity (Naples) |
+| **New AI system (2026)** | Dell/E4 contract; >160 EF inference peak cited; integrated with EuroHPC |
 
-Services include computing hours, data preparation, model training, inference, horizontal services (AI setup, development, test, trust), and training.
+### Services (horizontal + vertical)
 
-**Contact / consultation:** https://forms.office.com/e/swchU8P4C5
+Verticals: agritech, cybersecurity, meteorology/climate, manufacturing. Horizontal: secure data management, metadata, **EU/IT regulatory compliance** checks, training, agentic AI support.
+
+### Packages
+
+| Package | Use case |
+| --- | --- |
+| **TRY** | Experimentation, scalability trials |
+| **Medium** | Fine-tuning, datasets, agentic prototypes |
+| **Large** | Pre-training, foundation-model adaptation |
+
+**No fixed usage cap** for eligible users through **31 March 2028** (per IT4LIA FAQ).
+
+### Contacts
+
+| Purpose | Contact |
+| --- | --- |
+| General | info-it4lia@cineca.it |
+| Technical support | support-it4lia@cineca.it |
+| Training | training-it4lia@cineca.it |
+| Consultation form | https://forms.office.com/e/swchU8P4C5 |
+| Address | Via Stalingrado 84/3, 40128 Bologna |
 
 ---
 
-## 4. EuroHPC Federation Platform (2026)
+## 5. Other notable national / regional stacks
 
-EuroHPC is rolling out a **Federation Platform** to streamline access to European supercomputing resources for researchers, businesses, and public sector organisations.
-
-Watch: https://www.eurohpc-ju.europa.eu/first-release-eurohpc-federation-platform-streamline-access-europes-supercomputing-resources-2026-04-15_en
+| Initiative | Country | Notes |
+| --- | --- | --- |
+| **GenAI4EU** | EU-wide | Uptake of generative AI across industrial ecosystems |
+| **OpenEuroLLM** | EU consortium | 20+ orgs; multilingual open LLMs; first models mid-2026 |
+| **Mistral Compute** | France | EU cloud / API infrastructure |
+| **Scaleway / OVHcloud** | France | Sovereign EU GPU hosting for open-weight inference |
+| **Nebius** | EU operations | GPU cloud (NL/Finland presence) |
+| **Tilde on LUMI** | Latvia/EU | TildeOpen 30B trained on LUMI (2M GPU hours, Sep 2025) — example of factory outcomes |
 
 ---
 
-## 5. Open gaps (where Limes Labs needs help)
+## 6. EU policy context (why this map matters)
 
-- [ ] Map eligibility requirements per access mode for unaffiliated open source projects
-- [ ] Document legal entity requirements (nonprofit vs company vs university partner)
-- [ ] List European open-weight model labs and sovereign AI startups
-- [ ] Track funding calls relevant to open European language benchmarks
-- [ ] Contact log (public) for EuroHPC helpdesk, IT4LIA, national factories
+- **AI Act** (Reg. 2024/1689): risk-based rules; GPAI obligations from Aug 2025; full applicability Aug 2026
+- **EU Open Source Strategy** (2026): open source as lever for **technological sovereignty**
+- **Cloud and AI Development Act (CADA)**: sovereign cloud/AI stack proposal
+- **European Technological Sovereignty Package** (2026): semiconductors, AI, cloud, open source
+
+Limes Labs hypothesis: **open weights + EuroHPC access + public eval (eurobench)** is a viable European path that does not require pretending frontier labs already exist everywhere.
+
+---
+
+## 7. Open gaps (where Limes Labs needs help)
+
+- [ ] Confirm legal-entity requirements for unaffiliated open-source collectives (Fast Lane vs Large Scale)
+- [ ] Document per-factory single points of contact for open-model pretraining proposals
+- [ ] GPU-hour budgeting template for 7B / 30B / 70B European language runs
+- [ ] Map national funding (PNRR Italy, France 2030, etc.) that stacks with EuroHPC allocations
+- [ ] Track **Federation Platform** onboarding for non-traditional applicants
+- [ ] Public contact log (what we asked, what we learned) → see [compute-access-notes](https://github.com/Limes-Labs/compute-access-notes)
 
 ## Contribute
 
 - Open an issue with a program, lab, or access path to document
-- Submit a PR with sourced notes
+- Submit a PR with **sourced** notes (link + date)
 - Join: https://limeslabs.eu/join
