@@ -15,6 +15,19 @@ Limes Labs is early. This repository is the first technical artifact: a living d
 - European AI startups working on sovereign or open models
 - Legal and institutional constraints
 
+## Structured data
+
+This repo now includes source-tracked CSV maps:
+
+- [data/ai_factories.csv](data/ai_factories.csv)
+- [data/eurohpc_supercomputers.csv](data/eurohpc_supercomputers.csv)
+- [data/it4lia_infrastructure.csv](data/it4lia_infrastructure.csv)
+
+Schema and sourcing rules:
+
+- [docs/data-schema.md](docs/data-schema.md)
+- [docs/source-policy.md](docs/source-policy.md)
+
 ## Status
 
 Phase I — infrastructure and people. We are researching and starting outreach. We are not claiming compute access yet.

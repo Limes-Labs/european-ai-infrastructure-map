@@ -74,12 +74,16 @@ AI Factories provide: GPU compute, expert support, training, data/compliance too
 | **HammerHAI** | Germany | Complements JAIF |
 | **PIAST** | Poland | National sovereign AI |
 | **Gaia AI Factory** | Poland | Additional factory |
+| **BRAIN++** | Bulgaria | Named in the EuroHPC AI Factories helpdesk topic list |
+| **SLAIF** | Slovenia | Named in the EuroHPC AI Factories helpdesk topic list |
+| **AI:AT** | Austria | Named in the EuroHPC AI Factories helpdesk topic list |
 | **CZAI** | Czechia | New |
 | **LitAI** | Lithuania | New |
 | **NLAIF** | Netherlands | New |
 | **1Health AI** | Spain | Health vertical |
 | **RO AI Factory** | Romania | New |
-| Austria, Bulgaria, Slovenia | — | New AI-optimised systems per Mar 2025 announcement |
+
+Source for the named BRAIN++, SLAIF, and AI:AT helpdesk entries: https://www.eurohpc-ju.europa.eu/ai-factories/helpdesk-ai-factories_en
 
 **Antennas** extend factories transnationally (e.g. IT4LIA antennas: Switzerland, Serbia). Full list: https://www.eurohpc-ju.europa.eu/ai-factory-antennas_en
 
